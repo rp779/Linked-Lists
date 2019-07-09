@@ -1,13 +1,10 @@
-
-#include <iostream>
 #include <string>
-
-using namespace std;
 
 #ifndef SLIST_H
 #define SLIST_H
 
-typedef char List_Type;
+typedef char List_Type; 
+
 //declaration for a node in the list
 class LIST_NODE
 {
@@ -23,10 +20,10 @@ public:
 	LINKED_LIST_CLASS();//default constructor
 	~LINKED_LIST_CLASS();
 	void Print(); //accessor
-	bool Is_Empty() { return front == 0; }; //accessor
+	bool Is_Empty() { return front == 0; }; 
 	void Insert_FRONT(const List_Type &);
 	void Insert_BACK(const List_Type &);
-	void Create_List(const string &, LIST_NODE *&, LIST_NODE *&);
+	void Create_List(const std::string &, LIST_NODE *&, LIST_NODE *&);
 	LIST_NODE * Search(const List_Type &);
 	void Remove(const List_Type &);
 	
