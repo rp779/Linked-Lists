@@ -1,2 +1,2 @@
-# ll
-linked list implementation in c++
+# singly linked list
+a singly linked list implementation in c++
